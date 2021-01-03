@@ -57,7 +57,7 @@ public class JwtUser implements UserDetails {
 
 	@Override
 	public String getUsername() {
-		return null;
+		return username;
 	}
 
 	@JsonIgnore
